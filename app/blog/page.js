@@ -1,19 +1,14 @@
 
 import Header from "@/components/Layout/Header"
 import Footer from "@/components/Layout/Footer"
-import Hero from "@/components/Hero"
-import Instructions from "@/components/Instructions"
-import FAQ from "@/components/FAQ"
 
 
-export default function Home() {
+export default function Blog() {
   return (
     <div className="bg-white h-screen flex flex-col">
       <Header />
         <div className="grow">
-          <Hero />
-          <Instructions></Instructions>
-          <FAQ></FAQ>
+            blog
         </div>
       <Footer />
     </div>
