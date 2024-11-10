@@ -1,9 +1,8 @@
 import { Bars3BottomRightIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Product', href: '/' },
-    { name: 'Features', href: '/' },
-    { name: 'Blog', href: '/blog' },
+    { name: 'Instruction', href: '#instruction' },
+    { name: 'FAQs', href: '#faq' },
   ]
 
 export default function Menu() {
@@ -28,8 +27,8 @@ export default function Menu() {
                   ))}
                 </ul>
                 <div className="p-4">
-                  <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 bg-lime-200 hover:bg-lime-100 neobrutal-hover-raised text-center">
-                      Log in
+                  <a href="https://oasis.decart.ai/starting-point" className="mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 bg-violet-200 hover:bg-violet-100 neobrutal-hover-raised text-center">
+                    Play Game
                   </a>
               </div>
                 </div>
@@ -47,8 +46,8 @@ export default function Menu() {
           </ul>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 bg-lime-200 hover:bg-lime-100 neobrutal-raised py-2 px-3 rounded-md">
-              Log in
+            <a href="https://oasis.decart.ai/starting-point" className="text-sm font-semibold leading-6 text-gray-900 bg-violet-200 hover:bg-violet-100 neobrutal-raised py-2 px-3 rounded-md">
+              Play Game
             </a>
           </div>
     </>

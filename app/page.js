@@ -13,8 +13,12 @@ export default function Home() {
       <Header />
         <div className="grow">
           <Hero />
-          <Instructions></Instructions>
-          <FAQ></FAQ>
+          <div id="instruction">
+            <Instructions />
+          </div>
+          <div id="faq">
+            <FAQ/>
+          </div>
         </div>
       <Footer />
     </div>
