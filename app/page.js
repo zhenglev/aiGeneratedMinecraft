@@ -5,6 +5,7 @@ import Hero from "@/components/Hero"
 import Instructions from "@/components/Instructions"
 import FAQ from "@/components/FAQ"
 
+export const runtime = "edge";
 
 export default function Home() {
   return (

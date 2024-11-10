@@ -4,7 +4,7 @@ export default function Logo() {
       <>
         <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
-              <div className="w-44 h-6 bg-no-repea bg-cover bg-[url('/ai-image-to-anime.png')]" />
+              <div className="w-72 h-8 bg-no-repeat bg-cover bg-[url('/aigeneratedminecraft.webp')]" />
             </a>
         </div>
       </>

@@ -2,6 +2,8 @@
 
 import { Bars3Icon ,HomeIcon, WalletIcon, BellIcon, MagnifyingGlassIcon, InboxIcon } from '@heroicons/react/24/outline'
 
+export const runtime = "edge";
+
 export default function Dashboard() {
   return (
     <div className="bg-white h-screen flex flex-col">
