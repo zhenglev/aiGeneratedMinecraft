@@ -24,7 +24,7 @@ export default function Menu() {
                 <ul >
                   {/* Sidebar content here */}
                   {navigation.map((item) => (
-                      <li className="menu-item m-1"><a className="w-full h-full block p-2" key={item.name} href={item.href} >{item.name}</a></li>
+                      <li className="menu-item m-1" key={item.name}><a className="w-full h-full block p-2" href={item.href} >{item.name}</a></li>
                   ))}
                 </ul>
                 <div className="p-4">
@@ -40,7 +40,7 @@ export default function Menu() {
         <div className="hidden lg:flex lg:gap-x-12">
           <ul class="lg:menu-horizontal">
           {navigation.map((item) => (
-            <li className="menu-item mx-1"><a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900 w-full h-full block p-2">
+            <li className="menu-item mx-1" key={item.name}><a  href={item.href} className="text-sm font-semibold leading-6 text-gray-900 w-full h-full block p-2">
               {item.name}
             </a></li>
           ))}
