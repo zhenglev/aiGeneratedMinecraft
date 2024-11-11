@@ -17,7 +17,8 @@
     "@heroicons/react": "^2.1.5",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-tweet": "^3.2.1"
   },
   "devDependencies": {
     "daisyui": "^4.12.10",

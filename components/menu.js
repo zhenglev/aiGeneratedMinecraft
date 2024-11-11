@@ -2,6 +2,7 @@ import { Bars3BottomRightIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'Instruction', href: '#instruction' },
+    { name: 'Review', href: '#review' },
     { name: 'FAQs', href: '#faq' },
   ]
 

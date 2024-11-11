@@ -4,6 +4,7 @@ import Footer from "@/components/Layout/Footer"
 import Hero from "@/components/Hero"
 import Instructions from "@/components/Instructions"
 import FAQ from "@/components/FAQ"
+import SocialWall from "@/components/SocialWall"
 
 export const runtime = "edge";
 
@@ -16,9 +17,13 @@ export default function Home() {
           <div id="instruction">
             <Instructions />
           </div>
+          <div id="review">
+            <SocialWall />
+          </div>
           <div id="faq">
             <FAQ/>
           </div>
+
         </div>
       <Footer />
     </div>
