@@ -15,7 +15,7 @@ export default function FAQ() {
               <input type="checkbox" />
               <div className="collapse-title text-xl font-medium">Do I need to download or install anything to play Oasis AI Minecraft?</div>
               <div className="collapse-content bg-white border-t border-black">
-                  <p className="my-2">No, you don't need to download anything. You can play ai generated minecraft directly through your web browser. </p>
+                  <p className="my-2">No, you don&apos;t need to download anything. You can play ai generated minecraft directly through your web browser. </p>
               </div>
             </div>
             <div className="collapse collapse-plus bg-violet-200 rounded mb-2">
@@ -40,7 +40,7 @@ export default function FAQ() {
               <input type="checkbox"/>
               <div className="collapse-title text-xl font-medium">Can I download and play ai generated minecraft on my PC?</div>
               <div className="collapse-content bg-white border-t border-black">
-                  <p className="my-2">Yes, you'll need to download and set up specific AI models and dependencies. you can download from <a className="text-indigo-600 bg-indigo-200 strong" href="https://github.com/etched-ai/open-oasis" target="_blank" >open-oasis</a>.</p>
+                  <p className="my-2">Yes, you&apos;ll need to download and set up specific AI models and dependencies. you can download from <a className="text-indigo-600 bg-indigo-200 strong" href="https://github.com/etched-ai/open-oasis" target="_blank" >open-oasis</a>.</p>
               </div>
             </div>
             <div className="collapse collapse-plus bg-violet-200 rounded mb-2">
