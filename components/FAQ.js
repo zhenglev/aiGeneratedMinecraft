@@ -13,12 +13,12 @@ export default function FAQ() {
             </div>
             <div className="collapse collapse-plus bg-violet-200 rounded mb-2">
               <input type="checkbox" />
-              <div className="collapse-title text-xl font-medium">How do I play AI Minecraft?</div>
+              <div className="collapse-title text-xl font-medium">How do I play ai generated minecraft?</div>
               <div className="collapse-content bg-white border-t border-black">    
                     <ul className="my-2">
-                      <li>1、Start AI Minecraft in your browser without any downloads</li>
-                      <li>2、Select from various AI-generated map themes</li>
-                      <li>3、Use standard Minecraft controls (WASD to move, space to jump, mouse to look around) to explore world in game</li>
+                      <li>1、play ai generated minecraft in your browser without any downloads</li>
+                      <li>2、select from various AI-generated map themes</li>
+                      <li>3、use standard Minecraft controls (WASD to move, space to jump, mouse to look around) to explore world in game</li>
                     </ul>
               </div>
             </div>
