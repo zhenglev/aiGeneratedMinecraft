@@ -20,8 +20,8 @@ export default function Showcase() {
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {somecases.map((item) => (
-                    <div class="bg-white rounded-lg overflow-hidden">
+                {somecases.map((item, index) => (
+                    <div class="bg-white rounded-lg overflow-hidden" key={index}>
                         <iframe class="w-full h-[270px] bg-gray-200 md:h-[274px]" src={item.src} title={item.title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" />
                     </div>
                 ))}
