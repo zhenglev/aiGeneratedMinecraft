@@ -5,6 +5,7 @@ import Hero from "@/components/Hero"
 import Instructions from "@/components/Instructions"
 import FAQ from "@/components/FAQ"
 import SocialWall from "@/components/SocialWall"
+import Showcase from "@/components/ShowCase"
 
 export const runtime = "edge";
 
@@ -16,6 +17,9 @@ export default function Home() {
           <Hero />
           <div id="instruction">
             <Instructions />
+          </div>
+          <div id="showcase">
+            <Showcase />
           </div>
           <div id="review">
             <SocialWall />
