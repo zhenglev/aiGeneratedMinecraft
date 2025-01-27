@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" >
       <head>
+        <meta name="msvalidate.01" content="6A508DE07F7230D68592CC1892970001" />
         <link rel="canonical" href="https://aigeneratedminecraft.com/" />
       </head>
       <body className={inter.className}>{children}</body>
